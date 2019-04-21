@@ -1,176 +1,410 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Toolkit 4 Life</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	</head>
-	<body class="landing is-preload">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WellBean</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1><a href="index.html">Toolkit</a> 4 Life</h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Welcome!</a></li>
-							<li>
-								<a href="#" class="icon fa-angle-down">Menu</a>
-								<ul>
-									<li><a href="generic.html">Generic</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li><a href="elements.html">Elements</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option One</a></li>
-											<li><a href="#">Option Two</a></li>
-											<li><a href="#">Option Three</a></li>
-											<li><a href="#">Option Four</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="contact.html" class="button">Contact us!</a></li>
-						</ul>
-					</nav>
-				</header>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 
-			<!-- Banner -->
-				<section id="banner">
-					<h2>Toolkit 4 Life</h2>
-					<p>Empowering students in their transition into high school.</p>
-					<ul class="actions special">
-						<li><a href="contact.html" class="button primary">Contact us!</a></li>
-						<li><a href="#Brief-introduction" class="button">Learn More</a></li>
-					</ul>
-				</section>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-			<!-- Main -->
-				<section id="main" class="container">
+    <link rel="stylesheet" href="css/aos.css">
 
-					<section class="box special">
-						<a id="Brief-introduction"></a>
-						<header class="major">
-							<h2>We hope to bring a service which will <strong>smoothen</strong>
-							<br />
-							the transition from primary to secondary school</h2>
-							<p>We bring a programme that will be individualised for each primary school,<br />
-							 focusing primarily on <strong>student wellbeing</strong>.</p>
-						</header>
-						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-					</section>
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-					<section class="box special features">
-						<div class="features-row">
-							<section>
-								<span class="icon major fa-heart accent2"></span>
-								<h3>We are super passionate!</h3>
-								<p>We are super passionate about the wellbeing of youth, with special focus on Year 6's. We believe that these students have to undergo an extrodinary amount of change in a very short duration and wish to assist them to the best of our ability.</p>
-							</section>
-							<section>
-								<span class="icon major fa-smile-o accent3"></span>
-								<h3>Wellbeing is our top priority</h3>
-								<p>We hope to empower Year 6 students to be able to be more self aware, self confident and self reflective as they journey through their transition from primary to secondary education. We believe this programme will equip students with the necessary skills to <strong>crush it</strong> in their transition.</p>
-							</section>
-						</div>
-						<div class="features-row">
-							<section>
-								<i class="icon major fa-product-badge accent4"></i>
-								<h3>Sed feugiat</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-							<section>
-								<span class="icon major fa-calendar-check-o accent5"></span>
-								<h3>Enim phasellus</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-						</div>
-					</section>
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-					<div class="row">
-						<div class="col-6 col-12-narrower">
 
-							<section class="box special">
-								<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
-								<h3>Meet the team!</h3>
-								<p>We are a group of 1<sup>st</sup> year <a href="https://www.monash.edu/global-challenges">Bachelor of Science Advanced - Global Challenges (Honours)</a> at <a ref="https://www.monash.edu/">Monash University</a>. Every one of us on the team are interested in helping the youth of today reach the fullest potential, and we hope to do so through improving wellbeing.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button alt">Learn More About Us!</a></li>
-								</ul>
-							</section>
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
 
-						</div>
-						<div class="col-6 col-12-narrower">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" data-aos="fade-down" data-aos-delay="500">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">WellBean</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
 
-							<section class="box special">
-								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
-								<h3>About the programme</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link">What We Do</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">The Journal</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">Who We Are</a></li>
+            <li class="nav-item"><a href="pricing.html" class="nav-link">FAQ</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
 
-						</div>
-					</div>
+    <section class="ftco-cover" style="background-image: url(images/bg_1.jpg);" id="section-home" data-aos="fade"  data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center ftco-vh-100">
+          <div class="col-md-7">
+            <h1 class="ftco-heading mb-3" data-aos="fade-up" data-aos-delay="500">Help us improve the wellbeing of your students.</h1>
+            <h2 class="h5 ftco-subheading mb-5" data-aos="fade-up"  data-aos-delay="600">[Insert our "what"] <strong>WellBean</strong> is a service which brings wellbeing and transition workshops to Year 6 students, equipping the youth of today with the necessary knowledge and skills to make the most out of high school and beyond.</h2>
+            <p data-aos="fade-up"  data-aos-delay="700"><a href="contact.html" target="_blank" class="btn btn-outline-white px-4 py-3" data-target="#reservationModal">Get in touch with us!</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
 
-				</section>
+    <section class="ftco-section" id="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12  mb-5" data-aos="fade-up">
+            <h1 class="ftco-heading heading-thin mb-5">We believe in a world where young people empower each other to acknowledge and nurture their wellbeing. </h1>
+          </div>
+        </div>
 
-			<!-- CTA -->
-				<section id="cta">
+      </div>
+    </section>
+    <!-- END section -->
 
-					<h2>Input your email into our system!</h2>
-					<p>If you would prefer a member of our team to contact you, please leave your email<br> in the field below and we will be in contact within 48 hours.</p>
+    <section class="ftco-section-2">
+      <div class="container-fluid">
+        <div class="section-2-blocks-wrapper row no-gutters">
+          <div class="img col-sm-12 col-md-5" style="background-image: url('images/image_4.jpg');" data-aos="fade-right">
+            <a href="https://vimeo.com/45830194" class="button popup-vimeo" data-aos="fade-right" data-aos-delay="700"><span class="ion-ios-play"></span></a>
+          </div>
+          <div class="text col-md-6 col-lg-7 d-flex">
+            <div class="text-inner align-self-center" data-aos="fade-up">
 
-					<!--<form action="http://formspree.io/jimmyswimmin@gmail.com" method="POST">
-						<div class="row gtr-50 gtr-uniform">
-							<div class="col-8 col-12-mobilep">
-								<input type="email" name="email" placeholder="Email Address" />
-							</div>
-							<div class="col-4 col-12-mobilep">
-								<input type="submit" value="Sign Up" class="fit" />
-							</div>
-						</div>
-					</form><div>-->
-					<form action="https://formspree.io/jimmyswimmin@gmail.com" method="POST" />
-						<div class="row gtr-50 gtr-uniform">
-								<div class="col-8 col-12-mobilep">
-									<input type="email" name="email" placeholder="Email Address"/>
-						</div>
-						<div class="col-4 col-12-mobilep">
-  						<input type="submit" value="Sign Up" class="fit">
-					</form>
+              <h3>Far far away, behind the word mountains</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 
-				</section>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Toolkit 4 Life. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
+    <section class="section-2-blocks-wrapper-2">
+      <div class="container-fluid">
+        <div class="section-2-blocks-wrapper row no-gutters d-flex" style="background: #fafafa;">
 
-		</div>
+          <div class="text col-md-5 col-lg-5 col-xl-4 ml-auto d-flex" data-aos="fade-up">
+            <div class="text-inner align-self-center mr-auto">
+              <h4 class="text-primary h5">Far far away, behind the word mountains</h4>
+              <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              <h4 class="text-primary h5">A small river named Duden flows by their place</h4>
+              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            </div>
+          </div>
+          <div class="img col-md-5 no-gutters ml-auto">
+            <div class="image" style="background-image: url('images/image_5.jpg'); " data-aos="fade-left"></div>
+            <div class="quote" data-aos="fade-left">
+              <p class="mb-5">&rdquo;Everyone is entitled to their hopes and dreams ­– to work, enjoy family and friends, go about their life without stigma and discrimination, and participate in decisions that affect them. &ldquo;</p>
+              <p class="author">&mdash; Former United Nations Secretary-General Ban Ki-Moon</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    </section>
 
-	</body>
+<!-- Testimonials-->
+
+  <!--<div class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center" data-aos="fade-up">
+          <h2>Testimonials</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4"  data-aos="fade-up">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front" style="background-image: url(../images/image_5.jpg);">
+                <div class="box">
+                  <h2>Mellissa Clark</h2>
+                  <p>Web Designer</p>
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <!--<blockquote>
+                  <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+                </blockquote>
+                <div class="author d-flex">
+                  <div class="image mr-3 align-self-center">
+                    <img src="images/person_1.jpg" alt="">
+                  </div>
+                  <div class="name align-self-center">Mellisa Clark <span class="position">Web Designer</span></div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- .flip-container -->
+        <!--</div>
+        <div class="col-md-6 col-lg-4"  data-aos="fade-up" data-aos-delay="100">
+
+          <div class="flip-container hover">
+            <div class="flipper">
+              <div class="front" style="background-image: url(../images/image_6.jpg);">
+                <div class="box">
+                  <h2>Mellissa Clark</h2>
+                  <p>Web Designer</p>
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <!--<blockquote>
+                  <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                </blockquote>
+                <div class="author d-flex">
+                  <div class="image mr-3 align-self-center">
+                    <img src="images/person_2.jpg" alt="">
+                  </div>
+                  <div class="name align-self-center">Louise Kelly <span class="position">Illustrator Designer</span></div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- .flip-container -->
+
+        <!--</div>
+        <div class="col-md-6 col-lg-4"  data-aos="fade-up" data-aos-delay="200">
+
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front" style="background-image: url(../images/image_7.jpg);">
+                <div class="box">
+                  <h2>Aldin Powell</h2>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <!--<blockquote>
+                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+                </blockquote>
+                <div class="author d-flex">
+                  <div class="image mr-3 align-self-center">
+                    <img src="images/person_3.jpg" alt="">
+                  </div>
+                  <div class="name align-self-center">Aldin Powell <span class="position">Web Developer</span></div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- .flip-container -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center" data-aos="fade-up">
+          <h2>What We Do</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-bank bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Tailored Programme</h3>
+              <p>We bring a programme tailored to match the needs and wants to each individual school.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-career bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Passionate Team</h3>
+              <p>The WellBean team is extremely passionate about increasing mental health literacy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-lightbulb bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Professionals Approved</h3>
+              <p>All parts of our programme has undergone rigorous checks by mental health professionals.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-pie-chart bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Better Prepared</h3>
+              <p>This programme will better equip your students to have a smooth transition into high school.</p>
+            </div>
+          </div>
+        </div>
+        <!--<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-handshake bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">[INSERT OTHER STUFF]</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-presentation bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Custom Development</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+          </div>
+        </div>-->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="ftco-section bg-light">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center"  data-aos="fade-up">
+          <h2>Our Blog</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <a href="blog-single.html" class="block-5" style="background-image: url('images/image_10.jpg');">
+            <div class="text">
+              <div class="subheading">Travel</div>
+              <h3 class="heading">Far far away, behind the word mountains</h3>
+              <div class="post-meta">
+                <span>Wellie Clark</span>
+                <span>March 20, 2018</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a href="blog-single.html" class="block-5" style="background-image: url('images/image_8.jpg');">
+            <div class="text">
+              <div class="subheading">Travel</div>
+              <h3 class="heading">Far far away, behind the word mountains</h3>
+              <div class="post-meta">
+                <span>Wellie Clark</span>
+                <span>March 20, 2018</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <a href="blog-single.html" class="block-5" style="background-image: url('images/image_9.jpg');">
+            <div class="text">
+              <div class="subheading">Travel</div>
+              <h3 class="heading">Far far away, behind the word mountains</h3>
+              <div class="post-meta">
+                <span>Wellie Clark</span>
+                <span>March 20, 2018</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">The Restaurant</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="py-2 d-block">About Us</a></li>
+                  <li><a href="#" class="py-2 d-block">Chefs</a></li>
+                  <li><a href="#" class="py-2 d-block">Events</a></li>
+                  <li><a href="#" class="py-2 d-block">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md">
+               <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Communities</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="py-2 d-block">Support</a></li>
+                  <li><a href="#" class="py-2 d-block">Sharing is Caring</a></li>
+                  <li><a href="#" class="py-2 d-block">Better Web</a></li>
+                  <li><a href="#" class="py-2 d-block">Good Template</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md">
+               <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Useful links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="py-2 d-block">Bootstrap 4</a></li>
+                  <li><a href="#" class="py-2 d-block">jQuery</a></li>
+                  <li><a href="#" class="py-2 d-block">HTML5</a></li>
+                  <li><a href="#" class="py-2 d-block">Sass</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ftco-footer-widget mb-4">
+            <ul class="ftco-footer-social list-unstyled float-md-right float-lft">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  </body>
 </html>
