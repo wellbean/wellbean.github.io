@@ -22,7 +22,7 @@
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-family: Flaticon;
   font-style: normal;
   font-weight: normal;
@@ -35,12 +35,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-bank:before { content: "\f100"; }
-.flaticon-dart:before { content: "\f101"; }
-.flaticon-career:before { content: "\f102"; }
-.flaticon-lightbulb:before { content: "\f103"; }
-.flaticon-pie-chart:before { content: "\f104"; }
-.flaticon-trophy:before { content: "\f105"; }
+.flaticon-calendar:before { content: "\f100"; }
+.flaticon-bag:before { content: "\f101"; }
+.flaticon-school:before { content: "\f102"; }
+.flaticon-passion-heart:before { content: "\f103"; }
+.flaticon-growth:before { content: "\f104"; }
+.flaticon-growth-1:before { content: "\f105"; }
 .flaticon-money:before { content: "\f106"; }
 .flaticon-handshake:before { content: "\f107"; }
 .flaticon-presentation:before { content: "\f108"; }

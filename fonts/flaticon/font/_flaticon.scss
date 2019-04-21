@@ -1,12 +1,13 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 22/05/2018 03:49
+    Creation date: 21/04/2019 08:52
     */
 
     @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -36,22 +37,16 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-bank:before { content: "\f100"; }
-.flaticon-dart:before { content: "\f101"; }
-.flaticon-career:before { content: "\f102"; }
-.flaticon-lightbulb:before { content: "\f103"; }
-.flaticon-pie-chart:before { content: "\f104"; }
-.flaticon-trophy:before { content: "\f105"; }
-.flaticon-money:before { content: "\f106"; }
-.flaticon-handshake:before { content: "\f107"; }
-.flaticon-presentation:before { content: "\f108"; }
+    .flaticon-calendar:before { content: "\f100"; }
+.flaticon-bag:before { content: "\f101"; }
+.flaticon-school:before { content: "\f102"; }
+.flaticon-passion-heart:before { content: "\f103"; }
+.flaticon-growth:before { content: "\f104"; }
+.flaticon-growth-1:before { content: "\f105"; }
     
-    $font-Flaticon-bank: "\f100";
-    $font-Flaticon-dart: "\f101";
-    $font-Flaticon-career: "\f102";
-    $font-Flaticon-lightbulb: "\f103";
-    $font-Flaticon-pie-chart: "\f104";
-    $font-Flaticon-trophy: "\f105";
-    $font-Flaticon-money: "\f106";
-    $font-Flaticon-handshake: "\f107";
-    $font-Flaticon-presentation: "\f108";
+    $font-Flaticon-calendar: "\f100";
+    $font-Flaticon-bag: "\f101";
+    $font-Flaticon-school: "\f102";
+    $font-Flaticon-passion-heart: "\f103";
+    $font-Flaticon-growth: "\f104";
+    $font-Flaticon-growth-1: "\f105";
